@@ -1,45 +1,82 @@
-*{
-    margin: 0px;
-    padding: 0px;
+/**{
     outline: 1px dotted red;
-   }
-   #wrapper{
-    width: 900px;
-    background-color: silver;
-    
-   }
-   #header{
-    min-height: 150px;
-    margin: 20px;
-    background-color: green;
-   }
-   #navigation{
-    min-height: 300px;
-    width: 180px;
-    margin-left: 20px;
-    background-color: blue;
-    display: inline-block;
-   }
-   #main_content{
-    min-height: 400px;
-    width: 655px;
+}
+*/
+.wrapper{
+    max-width: 970px;
+    height: auto;
+    padding: 10px;
+    background-color: darkcyan;
+}
 
+.header{
+    width: 950px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: darkred;
+}
+#title{
+    width: 500px;
+    margin-top: 33px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightskyblue;
+
+}
+.nav{
+    width: 200px;
+    height: 250px;
+    margin: 10px; 
+    border-radius: 25px;
+    background-color: aquamarine;
     vertical-align: top;
     display: inline-block;
-    margin-left: 20px;
-    background-color: red;
-   }
-   .subcontents{
+}
+.navline{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.navul{
+    padding-left: 20px;
+}
+.mainform{
+    width: 720px;
+    height: 560px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: darkslategray;
+    color: aquamarine;
     display: inline-block;
-    min-height: 200px;
+}
+.mainhead{
+    font-size: 26px;
+    margin-left: 10px;
+}
+.mainpara{
+    margin-left: 10px;
+    font-size: 13px;
+}
+#mainlist{
+    font-size: 13px;
+}
+li.var{
+    color: purple;
+}
+
+
+.footer{
+    width: 950px;
+    height: 70px;
     margin: 10px;
-    width: 180px;
-    background-color: yellow;
-   }
-   #advertisement{
-    min-height: 120px;
-    width: 600px;
-    background-color: purple;
+    border-radius: 15px;
+    background-color: gray;
+}
+.footpara{
+    margin-top: 25px;
+    margin-left: 10px;
     display: inline-block;
-    margin: 10px;
-   }
+}
